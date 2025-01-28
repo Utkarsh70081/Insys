@@ -2,7 +2,7 @@ from together import Together
 import os
 
 # Configure Together API
-os.environ["TOGETHER_API_KEY"] = "a19d1436011598aa166243453adcb2eb7045e5dce622b0870f59184dcc7f4470"  # Replace with your actual API key
+os.environ["TOGETHER_API_KEY"] = "b7ca0161d97f8fbf7e9a547978f439c5f4b4515087269481ae471cf47600258c"  # Replace with your actual API key
 api_client = Together()
 
 # def analyze_pdf(pdf_text, job_description):
