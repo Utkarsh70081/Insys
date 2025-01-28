@@ -2,42 +2,50 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+    background-color: #f4f4f4; /* Light gray background for contrast */
 }
 
 .container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for clean look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #2c3e50; /* Dark blue-gray for better readability */
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
 }
 
 input, textarea, button {
     font-size: 16px;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
+input, textarea {
+    background-color: #f8f9fa; /* Light grayish background for inputs */
+}
+
 button {
-    background-color: #007BFF;
+    background-color: #28a745; /* Green for action buttons */
     color: white;
     cursor: pointer;
     border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #218838; /* Darker green on hover */
 }
